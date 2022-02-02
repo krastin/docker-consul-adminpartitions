@@ -1,0 +1,5 @@
+{
+  "Name": "partition1-policy1",
+  "Partition": "partition1",
+  "Rules": "acl = \"write\"\r\n\r\npartition \"partition1\" {\r\n\r\n  acl = \"write\"\r\n  policy = \"write\"\r\n  mesh = \"write\"\r\n\r\n  key_prefix \"\" {\r\n    policy = \"write\"\r\n  }\r\n\r\n  node_prefix \"\" {\r\n    policy = \"write\"\r\n  }\r\n\r\n  session_prefix \"\" {\r\n    policy = \"write\"\r\n  }\r\n\r\n  service_prefix \"\" {\r\n    policy = \"write\"\r\n    intentions = \"write\"\r\n  }\r\n\r\n  namespace_prefix \"\" {\r\n    acl = \"write\"\r\n    policy = \"write\"\r\n\r\n    key_prefix \"\" {\r\n      policy = \"write\"\r\n    }\r\n\r\n    session_prefix \"\" {\r\n      policy = \"write\"\r\n    }\r\n\r\n    service_prefix \"\" {\r\n      policy = \"write\"\r\n    }\r\n\r\n    node_prefix \"\" {\r\n      policy = \"read\"\r\n    }\r\n  }\r\n}"
+}

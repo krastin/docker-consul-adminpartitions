@@ -1,0 +1,8 @@
+{
+  "Description": "test token for partition1",
+  "Policies": [
+    { "Name": "partition1-policy1" }
+  ],
+  "Partition": "partition1",
+  "Local": false
+}

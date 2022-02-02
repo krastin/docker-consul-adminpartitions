@@ -1,0 +1,10 @@
+[
+    {
+        "KV": {
+            "Partition": "partition1",
+            "Verb": "set",
+            "Key": "test2",
+            "Value": "MTAwMDA="
+        }
+    }
+]
